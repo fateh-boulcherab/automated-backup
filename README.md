@@ -14,9 +14,19 @@ This script allows system administrators to automate server or workstation direc
 
 ---
 
+## 🛠️ Getting Started (Step-by-Step)
+
+1. **Clone the project into your server or local machine**  
+   Open terminal (or Git Bash / PowerShell on Windows), and run:
+
+   ```bash
+   git clone git@github.com:fateh-boulcherab/automated-backup.git
+   cd automated-backup
+   ```
+
 ## ⚙️ Configuration (`config.json`)
 
-Create or edit the `config.json` file in the same folder as `backup.py`.
+Edit the `config.json`.
 
 ### 📝 Example:
 
