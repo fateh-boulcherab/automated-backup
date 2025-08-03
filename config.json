@@ -1,0 +1,8 @@
+{
+  "source_dirs": [
+    "/path/to/dir1",
+    "/path/to/dir2"
+  ],
+  "backup_dir": "/path/to/backup/storage",
+  "max_backups": 5
+}
