@@ -14,7 +14,7 @@ This script allows system administrators to automate server or workstation direc
 
 ---
 
-## 🛠️ Getting Started (Step-by-Step)
+## 📥 Cloning the Project
 
 1. **Clone the project into your server or local machine**  
    Open terminal (or Git Bash / PowerShell on Windows), and run:
@@ -24,9 +24,11 @@ This script allows system administrators to automate server or workstation direc
    cd automated-backup
    ```
 
+---
+
 ## ⚙️ Configuration (`config.json`)
 
-Edit the `config.json`.
+Edit the `config.json` file to specify your source directories, backup destination, and the maximum number of backup folders to retain.
 
 ### 📝 Example:
 
@@ -78,7 +80,7 @@ The script will:
 1. Open **Task Scheduler**
 2. Click **Create Basic Task**
 3. Name your task (e.g., "DailyBackup")
-4. Choose trigger (e.g., Daily, Weekly)
+4. Choose a trigger (e.g., Daily, Weekly)
 5. Select **Start a program**
 6. Program/script:  
    ```
@@ -94,7 +96,7 @@ The script will:
    ```
 7. Finish and test the task.
 
-> ✅ You must have Python added to your system PATH.
+> ✅ Ensure Python is added to your system PATH.
 
 ---
 
@@ -110,7 +112,7 @@ The script will:
    0 2 * * * /usr/bin/python3 /path/to/backup.py
    ```
 
-> Replace `/usr/bin/python3` with the output of `which python3`, and `/path/to/backup.py` with your script's location.
+> Replace `/usr/bin/python3` with the output of `which python3`, and `/path/to/backup.py` with the actual path to your script.
 
 ---
 
