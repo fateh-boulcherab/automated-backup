@@ -44,8 +44,8 @@ Edit the `config.json` file to specify your source directories, backup destinati
 #### ✅ **Windows**
 ```json
 {
-  "source_dirs": ["C:/Users/YourName/Documents", "D:/Projects"],
-  "backup_dir": "C:/Backups",
+  "source_dirs": ["C:\\Users\\YourName\\Documents", "D:\\Projects"],
+  "backup_dir": "C:\\Backups",
   "max_backups": 3
 }
 ```
